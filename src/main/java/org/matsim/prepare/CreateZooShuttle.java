@@ -68,7 +68,7 @@ public class CreateZooShuttle {
         scenario.getTransitSchedule().addStopFacility(toStopFacility);
 
         // create TransitRouteStop
-        var fromStop = scheduleFactory.createTransitRouteStop(fromStopFacility, 0, 0);
+        var fromStop = scheduleFactory.createTransitRouteStop(fromStopFacility, 0, 10);
         var toStop = scheduleFactory.createTransitRouteStop(toStopFacility, 3600, 3610);
 
         // create TransitRoute
